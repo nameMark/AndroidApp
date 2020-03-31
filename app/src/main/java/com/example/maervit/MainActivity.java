@@ -43,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         this.finish();
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
 
     class ZXingScannerResultHandler implements ZXingScannerView.ResultHandler{
 
